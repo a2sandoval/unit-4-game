@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Crystal Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+
+
+</head>
+<body>
+        <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="jumbotron jumbotron-fluid">
+                            <h1>Crystals Collector!</h1>
+                        </div> 
+                    </div>
+                </div>
+                <!-- Here we are coding the instructions for the game-->
+                <div class="row" id="instructions">
+                    <div class="col-md-12">
+                        <p> You will be given a random number at the start of the game!
+                            <br>
+                            Click on the four crystals below. A click on a crystal will add a specific amount of points to your total score. 
+                            <br>
+                            You win by matching your total score to the random number, you lose if your total score goes above the random number. 
+                            <br>
+                            The value of each crystal is hidden from you until you click on it. 
+                            <br>
+                            Each time when the game starts, the game will change the values of each crystal. 
+                        </p>
+
+                    </div>
+                </div>
+        <!-- Here we are coding the the score board and all the diamonds for the game-->
+                <div class="row">
+                    <div class="col-md-6">
+                      <h4 class="randomScore"></h4>  
+                    </div>
+                
+                    <div class="col-md-6">
+                        <div class="scoreBoard">
+                            <p span="winlose"></p>
+                            Wins:<h3><span id="wins"></span></h3>
+                            Losses: <h3> <span id="losses"></span></h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" id="diamonds">
+                    <div class="col-md-3">
+                    <div id="dblack">
+                        <img src="assets/images/d-black.png" alt="black diamond" width="100px" width="100px">
+                    </div>
+                    </div>
+                    <div class="col-md-3">
+                            <div id="dred">
+                                    <img src="assets/images/d-red.png" alt="black diamond" width="100px" width="100px">
+                                </div>
+                    </div>
+                    <div class="col-md-3">
+                            <div id="dgreen">
+                                    <img src="assets/images/d-green.png" alt="black diamond" width="100px" width="100px">
+                                </div>
+                    </div>
+                    <div class="col-md-3">
+                            <div id="dblue">
+                                    <img src="assets/images/d-blue.png" alt="black diamond" width="100px" width="100px">
+                                </div>
+                    </div>
+                </div>
+                 <div class="row">
+                    <div class="col-md-12">
+                        <div class="scoreback">
+                        <h4>Your total score is:</h4><h5 span id="totalScore"></span></h5>
+                    </div>
+                </div>
+                
+            
+        </div>
+    
+</body>
+<script src="assets/javascript/game.js"></script> 
+</html>
+

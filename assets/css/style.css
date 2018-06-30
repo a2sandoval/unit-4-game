@@ -1,0 +1,98 @@
+.jumbotron { 
+    background-color:orange;
+    text-align: center;
+    color:white;
+    
+}
+
+#instructions {
+    text-align: center;
+    font-weight:bold;
+
+}
+
+.randomScore {
+    background-color:salmon;
+    min-width: 50px;
+    min-height: 100px;
+    margin:2px;
+    color:white;
+}
+
+.scoreBoard {
+    background-color:coral;
+    min-width:25px;
+    min-height:100px;
+    padding:10px;
+    margin:2px;
+    color:white;
+}
+#diamonds {
+    margin:20px;
+}
+
+#dblack {
+    padding:5px;
+    }
+#dred {
+    padding:5px;
+}
+#dgreen {
+    padding:5px;
+}
+
+#dblue{
+padding:5px;
+}
+.scoreback {
+    background-color:salmon;
+    min-width: 50px;
+    min-height: 50px;
+    color:white;
+    padding:5px;
+}
+
+#totalscore{
+    background-color:coral;
+    min-width:150px;
+    min-height:100px;
+    color:white;
+    padding:10px;
+    margin:20px 0px 0px 15px;
+}
+
+body {
+    background-size: 40px 40px;
+    background-image: radial-gradient(circle, #000000 1px, rgba(0, 0, 0, 0) 1px);
+}
+@media (max-width: 800px) {
+    #dblack {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    }
+    #dred {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    }
+    #dgreen {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    }
+
+    #dblue{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    }
+ }
+
+@media (min-width: 801px) {
+
+}
